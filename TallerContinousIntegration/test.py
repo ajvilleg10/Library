@@ -26,5 +26,6 @@ class TestLibraryMethods(unittest.TestCase):
         total_late_fee = self.library.calculate_total_late_fees()
         self.assertEqual(total_late_fee, 0)
 
+#Ejecución del main
 if __name__ == '__main__':
     unittest.main()
